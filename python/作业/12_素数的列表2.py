@@ -20,6 +20,7 @@ for i in range(len(prime_list)-1, -1, -1):
 
 # 打印列表
 print(prime_list)
+
 # 定义max,n
 m = len(prime_list)
 n = int(input("请输入你要访问第几个素数,共%d个：" % m))
