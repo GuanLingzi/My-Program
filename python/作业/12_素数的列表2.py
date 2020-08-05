@@ -1,7 +1,9 @@
 # 创建空列表
 prime_list = []
+
 # 2判断不出，手动加入
 prime_list.append(2)
+
 # 判断素数
 for j in range(2, 101):
     for i in range(2, j):
@@ -10,10 +12,12 @@ for j in range(2, 101):
         elif (j - 1) == i:
             # 如果此数是素数，将它加入列表
             prime_list.append(j)
+
 # 去除含7的素数
 for i in range(len(prime_list)-1, -1, -1):
     if '7' in str(prime_list[i]):
         prime_list.remove(prime_list[i])
+
 # 打印列表
 print(prime_list)
 # 定义max,n
