@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	unsigned long long f1,f2,f3,i; 
+	unsigned long long f1,f2,f3,i;
 	f1=1;
 	f2=f1;
 	cout<<f1<<endl<<f2<<endl;
