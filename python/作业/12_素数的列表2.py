@@ -30,4 +30,3 @@ if 0 < n <= m:
     print(prime_list[n - 1])
 else:
     print("输入不合法，请重新输入")
-# 结束
