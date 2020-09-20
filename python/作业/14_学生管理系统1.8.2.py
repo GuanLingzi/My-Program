@@ -13,13 +13,13 @@ Welcome to [Student Achievement Management System] v1.8.2
 0: exit
 ===================================="""
 exit_title = """
-================
-Thanks for used this system
-The system was exited
-================"""
+====================================
+Thank you for using this system
+The system has exited
+===================================="""
 while True:
     print(main)
-    a = int(input("Please write down a number："))
+    a = int(input("Please enter a number："))
     if a == 1:
         name = input('name:')
         gender = input('gender:')
@@ -36,7 +36,7 @@ while True:
                     name_list.pop(i)
                     print('deleted successfully!')
                 else:
-                    print('continue to find next one')
+                    print('Keep looking for the next one')
             i += 1
     elif a == 3:
         for name in name_list:
@@ -50,7 +50,7 @@ while True:
                 if k == 'y':
                     print(f"name:{name[0]} gender:{name[1]} score:{name[2]}")
                 else:
-                    print('continue to find next one')
+                    print('Keep looking for the next one')
             i += 1
     elif a == 5:
         find = input('change who:')
@@ -68,10 +68,10 @@ while True:
                     name_list[i] = tuple(name_list)
                     print('changed successfully')
                 else:
-                    print('continue to find next one')
+                    print('Keep looking for the next one')
             i += 1
     elif a == 0:
         print(exit_title)
         break
     else:
-        print("wrote is not support,try again")
+        print("Input error, re-enter")
