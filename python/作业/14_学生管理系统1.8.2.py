@@ -53,13 +53,13 @@ while True:
                     print('Keep looking for the next one')
             i += 1
     elif a == 5:
-        find = input('change who:')
+        find = input('Who do you want to modify:')
         i = 0
         for name in name_list:
             if name[0] == find:
-                k = input(f"is this person?：{name}('y' or other word):")
+                k = input(f"is this person?：{name}('y' or 'n'):")
                 if k == 'y':
-                    print(f"name:{name[0]} gender:{name[1]} score:{name[2]}")
+                    print('original:', '(', f"name:{name[0]} gender:{name[1]} score:{name[2]}", ')')
                     name_list[i] = list(name)
                     name = name_list[i]
                     name[0] = input('new name:')
@@ -67,8 +67,11 @@ while True:
                     name[2] = input('new score:')
                     name_list[i] = tuple(name_list)
                     print('changed successfully')
-                else:
+                elif k == 'n':
                     print('Keep looking for the next one')
+                else:
+                    print('Input error, re-enter')
+                    break
             i += 1
     elif a == 0:
         print(exit_title)
