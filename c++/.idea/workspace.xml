@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Program" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fca2123-3302-4551-9d8b-cc211819f86c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../python/.idea/dictionaries/GLZ.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/作业/15_数字重复统计.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/我的存档.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/我的存档.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.26/.vs/ProjectSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.26/.vs/ProjectSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.26/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.26/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.26/BMI指数.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/6.26/BMI指数.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.26/CppProperties.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.26/CppProperties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.26/加法计算题.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/6.26/加法计算题.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.26/打车计算.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/6.26/打车计算.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.26/抽奖.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/6.26/抽奖.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.26/整人.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/6.26/整人.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.19/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.19/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.19/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.19/2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.19/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.19/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.19/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.19/4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.19/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.19/5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.19/wolf coming.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.19/wolf coming.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.26/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.26/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.26/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.26/2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.26/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.26/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.26/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.26/4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.26/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.26/5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.26/6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/7.26/6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/10.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/10.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/7.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/7.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/8.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/8.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.18/9.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.18/9.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.2/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.2/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.2/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.2/2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.2/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.2/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.2/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.2/4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自主/地球人口承载力估计.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/自主/地球人口承载力估计.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自主/字符三角形.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/自主/字符三角形.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自主/恶搞.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/自主/恶搞.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/dictionaries/windows10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/dictionaries/windows10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/关凌梓.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/关凌梓.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/作业/06_逻辑运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/作业/06_逻辑运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/作业/07_分支与嵌套.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/作业/07_分支与嵌套.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/作业/08_综合复习一.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/作业/08_综合复习一.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/作业/09_判断素数.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/作业/09_判断素数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/作业/10_星星塔.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/作业/10_星星塔.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/作业/11_素数的列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/作业/11_素数的列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/作业/12_素数的列表2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/作业/12_素数的列表2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/作业/14_学生管理系统1.8.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/作业/14_学生管理系统1.8.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/笔记/11_循环3笔记.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/笔记/11_循环3笔记.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/自主/判断本月有几天.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/自主/判断本月有几天.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/自主/学员管理系统.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/自主/学员管理系统.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/自主/学员管理系统beta.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/自主/学员管理系统beta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/自主/邮件运费.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/自主/邮件运费.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/06_逻辑运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/06_逻辑运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/08_分支与嵌套.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/08_分支与嵌套.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/09_循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/09_循环.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/10_循环2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/10_循环2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/11_循环3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/11_循环3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/lesson_0_三角形.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/lesson_0_三角形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/lesson_1_变量.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/lesson_1_变量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/lesson_2_python数据类型(数字类型).py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/lesson_2_python数据类型(数字类型).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/lesson_3_数据类型（序列类型）.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/lesson_3_数据类型（序列类型）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/lesson_4_变量和数据类型练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/lesson_4_变量和数据类型练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/lesson_5_python数学运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/lesson_5_python数学运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/lesson_6_数学运算练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/lesson_6_数学运算练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/猜数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/猜数字.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/线上课_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/线上课_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/线上课_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/线上课_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/课堂/线上课_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/课堂/线上课_3.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iz66UsDgQPXOoHWin5fBM5POlg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fca2123-3302-4551-9d8b-cc211819f86c" name="Default Changelist" comment="" />
+      <created>1602897900287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602897900287</updated>
+      <workItem from="1602897903101" duration="34000" />
+      <workItem from="1602897997315" duration="37000" />
+      <workItem from="1602898037940" duration="57000" />
+      <workItem from="1602898126203" duration="16000" />
+      <workItem from="1602898146186" duration="141000" />
+      <workItem from="1602898410773" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
