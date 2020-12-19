@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04720E71253BDBF900B71595 /* 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04720E70253BDBF900B71595 /* 2.cpp */; };
+		047271F72560BDBB001691B0 /* 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04720E70253BDBF900B71595 /* 2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,7 +88,7 @@
 		04720E65253BDBF900B71595 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					04720E6C253BDBF900B71595 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04720E71253BDBF900B71595 /* 2.cpp in Sources */,
+				047271F72560BDBB001691B0 /* 2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +239,7 @@
 		04720E75253BDBF900B71595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -247,6 +248,7 @@
 		04720E76253BDBF900B71595 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
