@@ -1,5 +1,7 @@
-n = int(input("Please input a integer number:"))
-h = n // 3600
-m = n // 60 % 60
-s = n % 60
-print(f'{h:02}:{m:02}:{s:02}')
+a = int(input())
+sum = 0
+while a != 0:
+    if a % 2 == 1:
+        sum += 1
+    a = a // 2
+print(sum)
