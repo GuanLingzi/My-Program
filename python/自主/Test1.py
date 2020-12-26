@@ -192,10 +192,19 @@ print("".join(list1))
      5
 输出：1
 """
-input()
-input()
-print(1)
-
+a = int(input())
+b = int(input())
+l = []
+if a > b:
+    for ans in range(1, a):
+        if a % ans == 0 and b % ans == 0:
+            l.append(ans)
+else:
+    for ans in range(1, b):
+        if a % ans == 0 and b % ans == 0:
+            l.append(ans)
+l.sort(reverse=True)
+print(l[-1])
 """
 12.给你两个正整数a和b，输出它们的最小公倍数。
 示例：
