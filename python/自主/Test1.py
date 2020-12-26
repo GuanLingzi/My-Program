@@ -125,10 +125,11 @@ else:
      8 97 31 24 55
 输出：55
 """
-input()
-print(55)
-
-
+n = int(input())
+a = input().split()
+a.sort(reverse=True)
+ans = a[n]
+print(ans)
 """
 8.将秒数表示成小时:分钟:秒的形式。
 输入一个整数表示秒，输出三个整数分别表示时分秒，之间以英文标点“:”分隔。
@@ -137,10 +138,11 @@ print(55)
 输入：8000
 输出：02:13:20
 """
-input()
-print()
-
-
+n = int(input("Please input a integer number:"))
+h = n // 3600
+m = n // 60 % 60
+s = n % 60
+print(f'{h:02}:{m:02}:{s:02}')
 """
 9.光棍的悲伤
 光棍们对1总是那么敏感，因此每年的11.11被戏称为光棍节。
@@ -150,8 +152,8 @@ print()
 输入：7
 输出：3
 """
-input()
-print(3)
+
+
 
 
 """
