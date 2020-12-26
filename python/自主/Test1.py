@@ -195,14 +195,9 @@ print("".join(list1))
 a = int(input())
 b = int(input())
 l = []
-if a > b:
-    for ans in range(1, a):
-        if a % ans == 0 and b % ans == 0:
-            l.append(ans)
-else:
-    for ans in range(1, b):
-        if a % ans == 0 and b % ans == 0:
-            l.append(ans)
+for ans in range(1, min(a, b) + 1):
+    if a % ans == 0 and b % ans == 0:
+        l.append(ans)
 l.sort(reverse=True)
 print(l[-1])
 """
@@ -212,10 +207,12 @@ print(l[-1])
      5
 输出：15
 """
-input()
-input()
-print(15)
-
+a = int(input())
+b = int(input())
+for ans in range(max(a, b), a * b + 1):
+    if ans % a == 0 and ans % b == 0:
+        print(ans)
+        break
 """
 13.两数之和
 在第一行输入一个列表nums，数与数之间以空格分隔。第二行输入一个整数target。
@@ -228,10 +225,12 @@ print(15)
 输出：[0, 1]
 说明：因为 nums[0] + nums[1] = 2 + 7 = 9， 所以返回 [0, 1]
 """
-input()
-input()
-print("[", 0, ",", 1, "]")
-
+nums = input().split()
+target = int(input())
+for ans1 in nums:
+    for ans2 in nums:
+        if ans1 + ans2 == target:
+            print("[", ans1, ",", ans2, "]")
 """
 14.信息加密
 给你个小写英文字符串a和一个非负数b(0<=b<26), 
@@ -242,10 +241,18 @@ print("[", 0, ",", 1, "]")
      3 
 则输出 ：fdjb
 """
-input()
-input()
-print('fdjb')
-
+a = input()
+b = int(input())
+for i in range(len(a)):
+    if ord(a[i])+3 <= 90:
+        print(''.join(chr(ord(a[i])+3)))
+    elif ord(a[i])+3 <= 122:
+        if ord(a[i]) > 96:
+            print(''.join(chr(ord(a[i])+3)))
+        elif ord(a[i])+3 > 90:
+            print(''.join(chr(96+((ord(a[i])+3)-90))))
+    else:
+        print(''.join(chr(64+((ord(a[i])+3)-122))))
 # 下方代码为计时模块，勿删
 # 上交前请用测试代码测试，running <  2s(2000 ms).
 
