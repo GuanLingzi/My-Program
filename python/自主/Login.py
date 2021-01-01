@@ -106,7 +106,7 @@ def usr_sign_up():
     entry_usr_pwd_confirm = tk.Entry(window_sign_up, textvariable=new_pwd_confirm, show='*')
     entry_usr_pwd_confirm.place(x=130, y=90)
 
-    # 下面的 sign_to_Hongwei_Website
+    # Sign
     btn_comfirm_sign_up = tk.Button(window_sign_up, text='登录', command=sign_to_Hongwei_Website)
     btn_comfirm_sign_up.place(x=180, y=120)
 
