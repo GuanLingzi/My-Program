@@ -6,7 +6,7 @@ import pickle
 window = tk.Tk()
 
 # 第2步，给窗口的可视化起名字
-window.title('Login (lol)')
+window.title('登陆窗口')
 
 # 第3步，设定窗口的大小(长 * 宽)
 window.geometry('400x300')  # 这里的乘是小x
@@ -18,7 +18,7 @@ tk.Label(window, text='密码:', font=('Arial', 14)).place(x=10, y=210)
 # 第6步，用户登录输入框entry
 # 用户名
 var_usr_name = tk.StringVar()
-var_usr_name.set('example@python.com')
+var_usr_name.set('Admin')
 entry_usr_name = tk.Entry(window, textvariable=var_usr_name, font=('Arial', 14))
 entry_usr_name.place(x=120,y=175)
 # 用户密码
@@ -88,10 +88,10 @@ def usr_sign_up():
     # 定义长在窗口上的窗口
     window_sign_up = tk.Toplevel(window)
     window_sign_up.geometry('300x200')
-    window_sign_up.title('Sign up window')
+    window_sign_up.title('注册窗口')
 
     new_name = tk.StringVar()  # 将输入的注册名赋值给变量
-    new_name.set('example@python.com')  # 将最初显示定为'example@python.com'
+    new_name.set('admin')  # 将最初显示定为'example@python.com'
     tk.Label(window_sign_up, text='用户名: ').place(x=10, y=10)  # 将`User name:`放置在坐标（10,10）。
     entry_new_name = tk.Entry(window_sign_up, textvariable=new_name)  # 创建一个注册名的`entry`，变量为`new_name`
     entry_new_name.place(x=130, y=10)  # `entry`放置在坐标（150,10）.
