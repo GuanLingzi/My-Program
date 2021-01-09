@@ -1,5 +1,6 @@
 # Load the module
 import time
+import random
 
 # Start the timing
 t0 = time.time()
