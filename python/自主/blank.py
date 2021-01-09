@@ -1,14 +1,16 @@
-import random
+# Load the module
 import time
 
+# Start the timing
+t0 = time.time()
+
+# Place your code here
 d = {}
 res = []
 nums = []
 target = random.randint(1, 1000000)
 for n in range(1, 1000001):
     nums.append(n)
-
-t0 = time.time()
 
 for idx, i in enumerate(nums):
     diff = target - i
@@ -19,5 +21,7 @@ for idx, i in enumerate(nums):
         d[diff] = idx
 print(res)
 
+# Stop the timing
 t1 = time.time()
+# Output the time
 print("used time:", t1 - t0, "s")
