@@ -227,14 +227,12 @@ for ans in range(max(a, b), a * b + 1):
 """
 nums = input().split()
 target = int(input())
-l1 = []
-for ans1 in nums:
-    for ans2 in nums:
-        if int(ans1) + int(ans2) == target:
-            l1.append(ans1)
-            l1.append(ans2)
+
+for i in range(len(nums) - 1):
+    for j in range(i + 1, len(nums)):
+        if int(nums[i]) + int(nums[j]) == target:
+            print([i, j])
             break
-print(l1)
 """
 14.信息加密
 给你个小写英文字符串a和一个非负数b(0<=b<26), 
