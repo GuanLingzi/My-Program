@@ -1,12 +1,10 @@
-a = input()
-b = int(input())
-for i in range(len(a)):
-    if ord(a[i])+3 <= 90:
-        print(''.join(chr(ord(a[i])+3)))
-    elif ord(a[i])+3 <= 122:
-        if ord(a[i]) > 96:
-            print(''.join(chr(ord(a[i])+3)))
-        elif ord(a[i])+3 > 90:
-            print(''.join(chr(96+((ord(a[i])+3)-90))))
-    else:
-        print(''.join(chr(64+((ord(a[i])+3)-122))))
+nums = input().split()
+target = int(input())
+l1 = []
+for ans1 in nums:
+    for ans2 in nums:
+        if int(ans1) + int(ans2) == target:
+            l1.append(ans1)
+            l1.append(ans2)
+            break
+print(l1)
