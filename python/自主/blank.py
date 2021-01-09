@@ -6,11 +6,12 @@ import random
 t0 = time.time()
 
 # Place your code here
+n = random.randint(1000000, 100000000)
 d = {}
 res = []
 nums = []
-target = random.randint(1, 1000000)
-for n in range(1, 1000001):
+target = random.randint(1, n)
+for n in range(1, n + 1):
     nums.append(n)
 
 for idx, i in enumerate(nums):
@@ -21,8 +22,9 @@ for idx, i in enumerate(nums):
     else:
         d[diff] = idx
 print(res)
+print("Used length:", n)
 
 # Stop the timing
 t1 = time.time()
 # Output the time
-print("used time:", t1 - t0, "s")
+print("Used time:", t1 - t0, "s")

@@ -225,7 +225,7 @@ for ans in range(max(a, b), a * b + 1):
 输出：[0, 1]
 说明：因为 nums[0] + nums[1] = 2 + 7 = 9， 所以返回 [0, 1]
 """
-nums = input().split()
+nums = dict(input().split())
 target = int(input())
 
 for i in range(len(nums) - 1):
