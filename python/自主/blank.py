@@ -7,7 +7,7 @@ d = {}
 res = []
 nums = []
 
-result = input("Do you want to customize the length？（'y' or 'n'):")
+result = input("Do you want to customize the length？（y or n):")
 if result == "y":
     n = int(input("Please input a integer:"))
     print("The length is:", n, "\n")
