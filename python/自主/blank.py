@@ -11,8 +11,6 @@ mama = dream(money)
 print(mama)
 print(f"你其实有{money}元人民币")
 
-import random
-
 
 def pao_ying_bi(do: str) -> str:
     import random
