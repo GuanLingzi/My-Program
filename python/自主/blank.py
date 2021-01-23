@@ -22,3 +22,7 @@ def pao_ying_bi(do: str) -> str:
 
 
 print(pao_ying_bi("做作业"))
+
+import random
+
+random.random()
