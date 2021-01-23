@@ -1,41 +1,26 @@
-# Load the module
-import time
+money = 0
+
+
+def dream(money):
+    money = 100000000
+    print(f"我有{money}元人民币了！")
+    return "醒醒，该上课了^_^"
+
+
+mama = dream(money)
+print(mama)
+print(f"你其实有{money}元人民币")
+
 import random
 
-# Place your code here
-d = {}
-res = []
-nums = []
 
-result = input("Do you want to customize the length？（y or n):")
-if result == "y":
-    n = int(input("Please input a integer:"))
-    print("The length is:", n, "\n")
-    time.sleep(2)
-elif result == 'n':
-    print("The length will be randomly selected between 1000000 and 100000000.\n")
-    n = random.randint(1000000, 100000000)
-
-# Start the timing
-t0 = time.time()
-
-target = random.randint(1, n)
-for n in range(1, n + 1):
-    nums.append(n)
-
-for idx, i in enumerate(nums):
-    diff = target - i
-    if i in d:
-        res = [d[i], idx]
-        break
+def pao_ying_bi(do: str) -> str:
+    import random
+    flag = random.choice([0, 1])
+    if flag:
+        return "正面...这次不算，重抛一次"
     else:
-        d[diff] = idx
-print("Index of the same value is:", res)
+        return f"反面！天意如此，不用{do}了！"
 
-if result == 'n':
-    print("Used length:", n)
 
-# Stop the timing
-t1 = time.time()
-# Output the time
-print("Used time:", t1 - t0, "s")
+print(pao_ying_bi("做作业"))
