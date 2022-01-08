@@ -36,7 +36,7 @@ while True:
         elif in_l[1] == '/':
             print('Calculation results：', division(num1, num2))
         else:
-            raise OperatorError('What you entered is not an operator at the second character')
+            raise OperatorError('What you entered at the second character is not an operator')
     except (ValueError, ZeroDivisionError) as e:
         print(e)
         print('Please enter again')
