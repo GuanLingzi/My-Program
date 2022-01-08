@@ -1,0 +1,48 @@
+1.NameError
+>>> print(num)
+NameError:name 'num' is not defined
+
+2.SyntaxError
+>>> print(''
+SyntaxError:invalid character in identifier
+
+3.ZeroDivisionError
+>>> print(5 / 0)
+ZeroDivisionError:division by zero
+
+4.ValueError
+>>> int('76.3')
+ValueError:invalid literal for int() with base 10
+
+5.TypeError
+>>> print('8' / 2)
+TypeError:unsupported operand type(s) for /: 'str' and 'int'
+
+6.IndentationError
+>>>   print(1)
+IndentationError:unexpected indent
+
+7.KeyError
+>>> d = {'a': 1, 'b': 2, 'c': 3}
+>>> print(d['x'])
+KeyError: 'x'
+
+8.IndexError
+>>> ls = [2, 3, 4]
+>>> print(ls[5])
+IndexError:list index out of range
+
+9.AttributeError
+>>> tp = ('1', '3', '5')
+>>> tp.append('7')
+AttributeError:'tuple' object has no attribute append
+
+10.IndentationError
+>>> if True:
+...    print(2) # Indent with spaces here
+...    print(1) # Indent with tab here
+IndentationError: unindent does not match any outer indentation level
+
+11.AssertionError
+>>> assert 1 > 2, 'Error'
+AssertionError:Error
